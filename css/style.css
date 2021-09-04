@@ -8,6 +8,7 @@ body {
 	margin: 0 auto;
 }
 
+/* CABECALHO PRINCIPAL */
 .cabecalhoPrincipal {
 	background-color: #FFF;
 	padding: 20px 0;
@@ -48,6 +49,7 @@ body {
 	text-align: center;
 }
 
+/* CONTEUDO PRINCIPAL */
 .conteudoPrincipal-cursos-link {
 	height: 100px;
 	background-color: #FFF;
@@ -90,7 +92,6 @@ body {
 	background: url(../img/background2.svg) no-repeat;
 }
 
-
 .rodapePrincipal {
 	background-color: #324C64;
 	padding-top: 20px;
@@ -128,6 +129,7 @@ body {
 .navmap-list-title-frontend { color: #5EC6F3; border-left: 4px solid #5EC6F3; }
 .navmap-list-title-backend { color: #25D285; border-left: 4px solid #25D285; }
 
+/* RODAPE PRINCIPAL */
 .rodapePrincipal-patrocinadores {
 	margin-top: 30px;
 	background: #F2F5F7;

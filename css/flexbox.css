@@ -1,0 +1,62 @@
+/* CABEÇALHO */
+.cabecalhoPrincipal .container {
+    display: flex;
+    justify-content: space-between;
+}
+.cabecalhoPrincipal-nav {
+    display: flex;
+}
+
+/* CONTEUDO */
+.conteudoPrincipal-cursos {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.conteudoPrincipal-cursos-link {
+    width: 23%;
+    margin: 1%;
+}
+
+.conteudoPrincipal-cursos-link:nth-child(4n) {
+    margin-right: 0;
+}
+
+.conteudoPrincipal-cursos-link:nth-child(4n+1) {
+    margin-left: 0;
+}
+
+.videoSobre .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.videoSobre-sobre {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* RODAPE */
+.rodapePrincipal-navMap-list {
+    display: flex;
+    flex-flow: column wrap;
+    height: 250px;
+}
+
+.rodapePrincipal-patrocinadores {
+    display: flex;
+}
+
+.rodapePrincipal-patrocinadores .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.rodapePrincipal-patrocinadores-list {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    margin-right: 5%;
+}
